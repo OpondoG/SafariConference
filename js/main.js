@@ -6,80 +6,80 @@ const li4 = document.querySelector('.list4');
 const li5 = document.querySelector('.list5');
 
 li2.addEventListener('click', () => {
-    burger.classList.remove('activ');
+  burger.classList.remove('activ');
 });
 li3.addEventListener('click', () => {
-    burger.classList.remove('activ');
-    mobMenu.classList.toggle('activ');
+  burger.classList.remove('activ');
+  mobMenu.classList.toggle('activ');
 });
 li4.addEventListener('click', () => {
-    burger.classList.remove('activ');
-    mobMenu.classList.toggle('activ');
+  burger.classList.remove('activ');
+  mobMenu.classList.toggle('activ');
 });
 li5.addEventListener('click', () => {
-    burger.classList.remove('activ');
-    mobMenu.classList.toggle('activ');
+  burger.classList.remove('activ');
+  mobMenu.classList.toggle('activ');
 });
 
 burger.addEventListener('click', () => {
-    burger.classList.toggle('activ');
-    mobMenu.classList.toggle('activ');
+  burger.classList.toggle('activ');
+  mobMenu.classList.toggle('activ');
 });
 
 const driver1 = {
-    imageSrc: './assets/kalle.png',
-    name: 'competitor',
-    rank: '1st',
-    id: 'firstdriver',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+  imageSrc: './assets/kalle.png',
+  name: 'competitor',
+  rank: '1st',
+  id: 'firstdriver',
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
 };
 
 const driver2 = {
-    imageSrc: './assets/kalle.png',
-    name: 'competitor',
-    rank: '2nd',
-    id: 'secondarydriver',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+  imageSrc: './assets/kalle.png',
+  name: 'competitor',
+  rank: '2nd',
+  id: 'secondarydriver',
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
 };
 
 const driver3 = {
-    imageSrc: './assets/kalle.png',
-    name: 'competitor',
-    rank: '3rd',
-    id: 'thirddriver',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+  imageSrc: './assets/kalle.png',
+  name: 'competitor',
+  rank: '3rd',
+  id: 'thirddriver',
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
 };
 
 const driver4 = {
-    imageSrc: './assets/kalle.png',
-    name: 'competitor',
-    rank: '4th',
-    id: 'fourthdriver',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+  imageSrc: './assets/kalle.png',
+  name: 'competitor',
+  rank: '4th',
+  id: 'fourthdriver',
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
 };
 
 const driver5 = {
-    imageSrc: './assets/kalle.png',
-    name: 'competitor',
-    rank: '5th',
-    id: 'fithdriver',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+  imageSrc: './assets/kalle.png',
+  name: 'competitor',
+  rank: '5th',
+  id: 'fithdriver',
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
 };
 
 const driver6 = {
-    imageSrc: './assets/kalle.png',
-    name: 'competitor',
-    rank: '6th',
-    id: 'sixthdriver',
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+  imageSrc: './assets/kalle.png',
+  name: 'competitor',
+  rank: '6th',
+  id: 'sixthdriver',
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
 };
 
 const drivers = [driver1, driver2, driver3, driver4, driver5, driver6];
 
 for (let i = 0; i < drivers.length; i += 1) {
-    const driver = document.createElement('div');
-    driver.classList.add('mb-3', 'col-md-6');
-    driver.innerHTML = `
+  const driver = document.createElement('div');
+  driver.classList.add('mb-3', 'col-md-6');
+  driver.innerHTML = `
     <div class="row driver">
     <div class="col-4 sp_img">
     <img src="${drivers[i].imageSrc}" class="img-fluid" alt="...">
@@ -93,5 +93,5 @@ for (let i = 0; i < drivers.length; i += 1) {
     </div>
   </div>
   `;
-    document.querySelector('.driver_cont').appendChild(driver);
+  document.querySelector('.driver_cont').appendChild(driver);
 }
