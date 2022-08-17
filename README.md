@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # SAFARI RALLY KENYA.
-![WRC 2022 logo](assets\redbulltv.png)
+![WRC 2022 logo](assets/redbulltv.png)
 
-> This is an educational project to make a website for a music conference event with home page and about page.
+> This is a sports project to make a website for a Safari Rally Competitions event with home page and about page.
 
 ## Built With
 
-- HTML5, CSS3, JavaScript
+- HTML5, CSS3, JavaScript ,Boostrap
 - Linters:
   - Stylelint
   - Lighthouse
