@@ -14,12 +14,11 @@
   - ESLint
 
 ## Project Documentation
-- Here is the [link]() to my Zoom video
 
 ## Website Mockup 📱 💻 🖥️
 
 ## Live Demo (if available)
-[Capstone I : Safari Rally Kenya]()
+[Capstone I : Safari Rally Kenya](https://opondog.github.io/capstoneproject1/)
 
 
 👤 **Author**
