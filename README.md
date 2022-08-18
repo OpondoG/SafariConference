@@ -14,6 +14,7 @@
   - ESLint
 
 ## Project Documentation
+- Presentation: [Link](https://www.loom.com/share/a878e565ead74f19b0db2f2e0a290329)
 
 ## Website Mockup 📱 💻 🖥️
 
