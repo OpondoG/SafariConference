@@ -24,7 +24,7 @@
 👤 **Author**
 
 - GitHub: [@OpondoG](https://github.com/OpondoG)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gilbert-okonjo-2081331b9/)
+- LinkedIn: [@Okonjo](https://www.linkedin.com/in/gilbert-okonjo-2081331b9/)
 
 
 ## 🤝 Contributing
