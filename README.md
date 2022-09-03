@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# SAFARI RALLY KENYA.
-![WRC 2022 logo](assets/redbulltv.png)
-#Capstone Project
-This is my first capstone project in this capstone project I managed to build the website based on an online website for an acodemy. using Html,CSS,JavaScript and the provided design guidelines to create the website.
 
+# SAFARI RALLY KENYA.
+
+> This is my first capstone project in this capstone project I managed to build the website based on an Safari Rally Competition conference in Kenya, using Html,CSS,JavaScript and the provided design guidelines to create the website.
+
+![WRC 2022 logo](assets/redbulltv.png)
 > This is a sports project to make a website for a Safari Rally Competitions event with home page and about page.
 
 ## Built With
