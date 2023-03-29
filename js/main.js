@@ -27,7 +27,7 @@ burger.addEventListener('click', () => {
 });
 
 const driver1 = {
-  imageSrc: './assets/kalle.png',
+  imageSrc: './assets/images.jpeg',
   name: 'competitor',
   rank: '1st',
   id: 'firstdriver',
@@ -35,7 +35,7 @@ const driver1 = {
 };
 
 const driver2 = {
-  imageSrc: './assets/kalle.png',
+  imageSrc: './assets/images1.jpeg',
   name: 'competitor',
   rank: '2nd',
   id: 'secondarydriver',
@@ -43,7 +43,7 @@ const driver2 = {
 };
 
 const driver3 = {
-  imageSrc: './assets/kalle.png',
+  imageSrc: './assets/images2.jpeg',
   name: 'competitor',
   rank: '3rd',
   id: 'thirddriver',
@@ -51,7 +51,7 @@ const driver3 = {
 };
 
 const driver4 = {
-  imageSrc: './assets/kalle.png',
+  imageSrc: './assets/images3.jpeg',
   name: 'competitor',
   rank: '4th',
   id: 'fourthdriver',
@@ -59,7 +59,7 @@ const driver4 = {
 };
 
 const driver5 = {
-  imageSrc: './assets/kalle.png',
+  imageSrc: './assets/images4.jpeg',
   name: 'competitor',
   rank: '5th',
   id: 'fithdriver',
@@ -67,7 +67,7 @@ const driver5 = {
 };
 
 const driver6 = {
-  imageSrc: './assets/kalle.png',
+  imageSrc: './assets/images5.jpeg',
   name: 'competitor',
   rank: '6th',
   id: 'sixthdriver',
